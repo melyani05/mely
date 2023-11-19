@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package day13;
 
-/**
- *
- * @author melia
- */
-public class Day13 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Day13 {
+        
+    
+       public static void main(String[] args) {
+       
+           int [] mely = {1,2,3,4,5};
+           
+           
+           if (mely.length > 3) {
+               System.out.println("array memiliki lebih dari 3 elemem ");
+               
+               
+           } else {
+               System.out.println("array memiliki 3 elemen atau kurang ");
+           }
+           
+           for (int element : mely) {
+               System.out.println(element);
+           }
     }
     
 }
